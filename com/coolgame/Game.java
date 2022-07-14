@@ -29,7 +29,7 @@ public class Game {
             }
         }
 
-        int computerMove = computer.nextInt(args.length); // Move of the computer is already specified when the game started.
+        int computerMove = computer.nextInt(args.length); // Move of the computer is already specified when the game starts.
 
         FairKey fairKey = new FairKey();
         SecretKey key = fairKey.getKey();
